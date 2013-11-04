@@ -23,7 +23,6 @@ The output should look something like:
 '''
 Mon Nov  4 11:07:43 EST 2013
 Pi: 3.140640
-Application 3854599 exit codes: 13
 Application 3854599 resources: utime ~0s, stime ~0s, Rss ~4820, inblocks ~2623, outblocks ~7171
 '''
 
