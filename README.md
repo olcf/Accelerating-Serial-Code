@@ -26,3 +26,5 @@ Pi: 3.140640
 Application 3854599 exit codes: 13
 Application 3854599 resources: utime ~0s, stime ~0s, Rss ~4820, inblocks ~2623, outblocks ~7171
 '''
+
+The tutorial which goes with this code can be found on the OLCF website at: http://www.olcf.ornl.gov/tutorials/cuda-monte-carlo-pi/
