@@ -1,10 +1,9 @@
-Accelerating Serial Code for the GPUs
+Accelerating Serial Code for GPUs
 =====================================
 
 This tutorial covers how to accelerate a simple Monte Carlo operation using CUDA, OpenACC, and finally using the Thrust template library.
 
 Before these examples can be compiled, you need to make sure that the PGI programming environment, the CUDA tool kit, and  the latest version of the PGI compiler is loaded.
-
 '''
 module load PrgEnv-pgi
 module load cudatoolkit
