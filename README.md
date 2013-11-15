@@ -11,10 +11,10 @@ module load cudatoolkit
 Before you can submit any of these examples, you need to edit the submit script (titan.pbs) and change <PROJID> to teh appropriate project ID.
 
 To compile and submit:
-*For the serial version: `make serial`
-*For the CUDA version: `make cuda`
-*For the OpenACC version: `make openacc`
-*For the Thrust version: `make thrust`
+* For the serial version: `make serial`
+* For the CUDA version: `make cuda`
+* For the OpenACC version: `make openacc`
+* For the Thrust version: `make thrust`
 
 The output should look something like:
 
