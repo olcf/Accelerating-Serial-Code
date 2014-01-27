@@ -37,7 +37,9 @@ int main(int argc, char* argv[])
 	float pi;
 	float count = 0.0;
 	int niter = 1000;
-	count = thrust::transform_reduce(thrust::counting_iterator<int>(0), thrust::counting_iterator<int>(niter),montecarlo(),0.0,thrust::plus<float>());
+	count = thrust::transform_reduce(thrust::counting_iterator<int>(0), 
+					 thrust::counting_iterator<int>(niter),
+					 montecarlo(),0.0,thrust::plus<float>());
 	pi = (count/(niter*niter))*4.0;			
 	printf("Pi: %f\n", pi);			
 }
