@@ -8,7 +8,7 @@ Before these examples can be compiled, you need to make sure that the PGI progra
 module load PrgEnv-pgi
 module load cudatoolkit
 ```
-Before you can submit any of these examples, you need to edit the submit script (titan.pbs) and change <PROJID> to teh appropriate project ID.
+Before you can submit any of these examples, you need to edit the submit script (titan.pbs) as well as the Makefile and change <PROJID> to the appropriate project ID.
 
 To compile and submit:
 * For the serial version: `make serial`
